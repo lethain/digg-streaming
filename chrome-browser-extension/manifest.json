@@ -1,0 +1,18 @@
+{
+  "name": "Upcoming on Digg",
+  "version": "1.0",
+  "description": "View upcoming stories on Digg.",
+  "content_scripts": [
+    {
+      "matches": ["http://jquery.com/*"],
+      "js": ["jquery-1.4.3.min.js", "digg.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "popup": "popup.html"
+  },
+  "permissions": [
+    "http://services.digg.com/"
+  ]
+}

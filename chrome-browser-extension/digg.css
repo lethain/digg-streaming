@@ -1,0 +1,49 @@
+body {
+  min-width:450px;
+  overflow-x:hidden;
+}
+
+ul {
+   list-style-type: none;
+   text-indent: -1em;
+}
+
+li {
+   padding-bottom: 10px;
+   clear: both;
+}
+
+img {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    left: -10px;
+    padding-right: 10px;
+    float: left;
+}
+
+p {
+  margin: 0 0 0 45px;
+  padding-top: 5px;
+  padding: 0;
+  color: #999;
+}
+
+p a {
+  color: #44F;
+}
+
+div.meta {
+    color: #AAC;
+    margin-top: 10px;
+    padding-left: 47px;
+}
+
+div.meta a {
+    color: #AAF;
+}
+
+span.author {
+
+}
+
