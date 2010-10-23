@@ -10,6 +10,6 @@ setup(name="Digg Streaming",
       include_package_data=True,
       license="MIT",
       author_email="wlarson@digg.com",
-      install_requires=["pycurl"],
+      install_requires=["pycurl", "redis"],
       keywords="Digg streaming API",
       )
